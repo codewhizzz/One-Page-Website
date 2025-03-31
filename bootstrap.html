@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChicMode | Fashion Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ChicMode</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron / Hero Section -->
+    <div class="jumbotron text-center bg-light">
+        <h1 class="display-4">Your Daily Dose of Style & Trends</h1>
+        <p class="lead">Explore the latest in fashion, beauty, and personal style.</p>
+        <a class="btn btn-dark btn-lg" href="#blog" role="button">Read the Blog</a>
+    </div>
+
+    <!-- Blog Cards -->
+    <div class="container" id="blog">
+        <h2 class="text-center mb-4">Featured Posts</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Summer Street Style</h5>
+                        <p class="card-text">Get inspired by these breezy looks perfect for hot summer days.</p>
+                        <a href="#" class="btn btn-outline-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title">10 Must-Have Accessories</h5>
+                        <p class="card-text">Elevate any outfit with these essential statement pieces.</p>
+                        <a href="#" class="btn btn-outline-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title">From Runway to Reality</h5>
+                        <p class="card-text">Discover how to recreate designer looks on a budget.</p>
+                        <a href="#" class="btn btn-outline-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container my-5" id="contact">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2025 ChicMode. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
